@@ -15,9 +15,9 @@ await mongoClient.connect();
 
 console.info("Connected to MongoDB");
 
-const mongoDB = mongoClient.db("ExamenOrdinario2425");
-const ResturantsCollection =
-  mongoDB.collection("restaurantes");
+const mongoDB = mongoClient.db("ExamenExtraordinario25");
+const HowardsCollection =
+  mongoDB.collection("Casas Howards");
 
 const server = new ApolloServer({
   typeDefs: schema,
